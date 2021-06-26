@@ -16,6 +16,8 @@ dependencies {
 
     compileOnly 'org.spigotmc:spigot:1.8.8-R0.1-SNAPSHOT'
 
+    implementation 'redis.clients:jedis:3.2.0'
+
     compileOnly 'org.projectlombok:lombok:1.18.10'
     annotationProcessor 'org.projectlombok:lombok:1.18.10'
 }
