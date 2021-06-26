@@ -1,0 +1,4 @@
+name: SimpleBreak
+main: com.screennetwork.simplebreak.SimpleBreakPlugin
+author: Screen
+version: 1.0

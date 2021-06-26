@@ -1,0 +1,33 @@
+world: plotworld
+
+rewardblocks:
+  1:
+    material: "1:0"
+    rewards:
+      100 de Cash:
+        chance: 10.5
+        commands:
+          - say {player} 1
+          - say {player} 2
+          - say {player} 3
+      1000 de Cash:
+        chance: 5.5
+        commands:
+          - say {player} 1
+          - say {player} 2
+          - say {player} 3
+  2:
+    material: "2:0"
+    rewards:
+      500 de Cash:
+        chance: 10.5
+        commands:
+          - say {player} 2500
+          - say {player} 22500
+          - say {player} 222500
+      5000 de Cash:
+        chance: 5.5
+        commands:
+          - say {player} 5000
+          - say {player} 50000
+          - say {player} 500000
