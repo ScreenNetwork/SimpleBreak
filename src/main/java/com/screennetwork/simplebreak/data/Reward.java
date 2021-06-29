@@ -1,5 +1,6 @@
 package com.screennetwork.simplebreak.data;
 
+import com.screennetwork.simplebreak.utils.ActionBar;
 import lombok.Data;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;
@@ -23,7 +24,7 @@ public class Reward {
               command.replace("{player}", player.getName()));
         }
 
-        player.sendMessage("§a§l GG! §aVocê recebeu '" + name + "' como recompensa.");
+        ActionBar.sendMessage(player, "§6+" + name + ".");
     }
 
 }

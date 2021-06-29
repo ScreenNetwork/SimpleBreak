@@ -1,5 +1,9 @@
 world: plotworld
 
+redis:
+  hostname: 'localhost'
+  port: 6379
+
 rewardblocks:
   1:
     material: "1:0"
@@ -7,15 +11,15 @@ rewardblocks:
       100 de Cash:
         chance: 10.5
         commands:
-          - say {player} gata
-          - say {player} gata2
-          - say {player} gata
+          - say {player} 1
+          - say {player} 2
+          - say {player} 3
       1000 de Cash:
         chance: 5.5
         commands:
-          - say {player} gataa
-          - say {player} gataa2
-          - say {player} gataa3
+          - say {player} 1
+          - say {player} 2
+          - say {player} 3
   2:
     material: "2:0"
     rewards:
